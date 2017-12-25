@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+  <h1> Course Sign Up Page</h1>
+  <p>
+    Please Note: First Name,Last Name,Password and Email are required
+  </p>
+  <form action="http://www.facebook.com" method="get">
+    <label for="FName">First Name:</label>
+    <input id="FName" type="text" name="fname" placeholder="First Name" required>
+    <label for="LName">Last Name:</label>
+    <input id="LName" type="text" name="lname" placeholder="Last Name" required><br><br>
+    <label for = "email">Email:</label>
+    <input id="email" type="email" name="email" placeholder="name@email.com" required>
+    <label for="pwd">Password:</label>
+    <input id="pwd" type="password" required>
+    <p> Are you over the age of 18?</p>
+    <label>Yes:</label>
+    <input type="radio" name="button" value="above 18" required>
+    <label>No:</label>
+    <input type="radio" name="button" value="Below 18"><br>
+    <p>Do you have credit card or PayPal?</p>
+    <select name="options">
+      <option value="credit Card">credit card</option>
+      <option value="PayPal">PayPal</option>
+    </select><br><br>
+    <input type="submit" value="Submit">
+  </form>
+  </body>
+</html>

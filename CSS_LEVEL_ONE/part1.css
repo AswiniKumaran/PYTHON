@@ -1,0 +1,48 @@
+*{
+  background-color: rgb(181, 236, 242);
+}
+.heading_1{
+  border: 1px solid black;
+}
+.para_1{
+  border: 2px solid yellow;
+  background: yellow
+}
+a:visited{color:red;}
+#span1{color: purple;text-decoration: overline;}
+.input{
+  border: 5px solid grey;
+  background-size: 400px;
+  background: white;
+  width: 800px;
+  height:400px;
+}
+h2{
+  color:purple;
+}
+#email{
+  border : 2px solid brown;
+  background-color: white;
+  background-size: auto;
+}
+#pwd{
+  border : 2px solid brown;
+  background-color: white;
+  background-size: auto;
+}
+#submit{
+  background-color: grey;
+  border: 2px solid brown;
+  background-size: auto;
+}
+.class1{
+  background: blue;
+  border: 4px dashed yellow;
+}
+#insidediv{
+  background:yellow;
+
+}
+#id{
+  background: white;
+}

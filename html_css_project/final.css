@@ -1,0 +1,4 @@
+body{background: rgb(49, 47, 112);margin: auto;text-align: center;}
+p{font-size: 18px;font-weight: bold;;padding: 50px 300px 0px 300px;}
+input{border:5px solid white;}
+#submit{height: 60px;border:px rounded white;background: yellow}
